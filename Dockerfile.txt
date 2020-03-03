@@ -1,3 +1,0 @@
-FROM python:stretch
-COPY SND-Deploy-Flask-App-to-Kubernetes-Using-EKS /var/app
-EXPOSE 80
