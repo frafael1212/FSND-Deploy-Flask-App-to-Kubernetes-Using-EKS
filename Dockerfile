@@ -10,4 +10,4 @@ COPY . /app
 
 EXPOSE 8080
 
-CMD ["gunicorn" , "-b", ":8080", "main:APP"]
+CMD ["gunicorn" , "-b", "80:8080", "main:APP"]
